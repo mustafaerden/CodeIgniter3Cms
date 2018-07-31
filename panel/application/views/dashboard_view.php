@@ -32,8 +32,6 @@
 </main>
 <!--========== END app main -->
 
-<!-- SIDE PANEL -->
-<?php $this->load->view("includes/right-sidebar"); ?>
 
 <?php $this->load->view("includes/inc_script"); ?>
 </body>
