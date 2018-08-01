@@ -31,7 +31,7 @@
                                 <li>
                                     <a class="text-color" href="settings.html">
                                         <span class="m-r-xs"><i class="fa fa-gear"></i></span>
-                                        <span>Settings</span>
+                                        <span>Ayarlar</span>
                                     </a>
                                 </li>
                                 <li role="separator" class="divider"></li>
@@ -53,7 +53,7 @@
         <div class="menubar-scroll-inner">
             <ul class="app-menu">
                 <li>
-                    <a href="javascript:void(0)">
+                    <a href="<?php echo base_url("dashboard") ?>">
                         <i class="menu-icon zmdi zmdi-view-dashboard zmdi-hc-lg"></i>
                         <span class="menu-text">Dashboard</span>
                     </a>
@@ -62,7 +62,7 @@
                 <li>
                     <a href="javascript:void(0)">
                         <i class="menu-icon zmdi zmdi-settings zmdi-hc-lg"></i>
-                        <span class="menu-text">Settings</span>
+                        <span class="menu-text">Ayarlar</span>
                     </a>
                 </li>
 
@@ -103,7 +103,7 @@
                 </li>
 
                 <li>
-                    <a href="javascript:void(0)">
+                    <a href="<?php echo base_url("product"); ?>">
                         <i class="menu-icon zmdi zmdi-shopping-cart zmdi-hc-lg"></i>
                         <span class="menu-text">Ürünler</span>
                     </a>
